@@ -2,6 +2,16 @@
 
 This project demonstrates how to set up a FastAPI endpoint for AI model inference, specifically using a pre-trained sentiment analysis model from the Hugging Face Transformers library.
 
+
+## Features
+
+- FastAPI Integration: Easily create API endpoints using FastAPI.
+- Local Model Loading: Load and use pre-trained models stored locally on your machine.
+- Sentiment Analysis: Analyze text sentiment using state-of-the-art transformer models.
+- Extensible and Modular: Designed to be easily extendable for other types of models and tasks.
+
+
+
 ## Project Structure
 
 - `app/`: Contains the FastAPI application code.
@@ -43,6 +53,9 @@ This project demonstrates how to set up a FastAPI endpoint for AI model inferenc
 ### Endpoints
 
 - `POST /predict/`: Predict the sentiment of a given text.
+
+## Download Models
+--visit `https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main
 
 ### Example Request
 
